@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#232931"
+    tools:context=".Fragments.CalculatorFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView13"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#232931"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ROI Calculator"
+            android:textColor="#4ecca3"
+            android:textSize="30sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="295dp"
+        android:layout_height="131dp"
+        android:gravity="center"
+        android:text="Want to know what you're missing out on? Use our ROI calculator to calculate the returns you could have recieved."
+        android:textColor="#93E1C8"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView13"
+        app:layout_constraintVertical_bias="0.414">
+
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView14"
+        android:layout_width="389dp"
+        android:layout_height="367dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#393e46"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.725">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:text="If you had invested"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:ems="10"
+            android:hint="Enter amount(min 50000)"
+            android:inputType="number"
+            android:padding="20dp"
+            android:textColor="@color/white"
+            android:textColorHint="#9C9898"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:padding="10dp"
+            android:text="15 years back in equity of"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <!--                <com.google.android.material.textfield.TextInputLayout-->
+        <!--                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"-->
+        <!--                    android:layout_width="170dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_marginLeft="210dp"-->
+        <!--                    android:layout_marginTop="70dp"-->
+        <!--                    android:hint="@string/select">-->
+
+        <!--                    <AutoCompleteTextView-->
+        <!--                        android:id="@+id/auto_complete"-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:backgroundTint="#393e46"-->
+        <!--                        android:inputType="none"></AutoCompleteTextView>-->
+
+        <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+
+        <Button
+            android:id="@+id/tcs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#4ecca3"
+            android:text="TCS"
+            android:layout_marginLeft="-60dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"></Button>
+        <Button
+            android:id="@+id/infy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#4ecca3"
+            android:layout_marginRight="-60dp"
+            android:text="INFY"
+            android:textColor="@color/white"
+            android:textStyle="bold">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/currentEvaluation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white"></TextView>
+
+        <TextView
+            android:id="@+id/dividend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:textColor="@color/white"></TextView>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

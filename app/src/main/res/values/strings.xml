@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Investo Ready</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hyperlink"><a href="https://corporatefinanceinstitute.com/resources/wealth-management/stock-market/">https://corporatefinanceinstitute.com</a></string>
+
+    <string name="hyperlink2"><a href="https://globalfinanceschool.com/blog-post/learning-stock-market">https://globalfinanceschool.com</a></string>
+
+</resources>
